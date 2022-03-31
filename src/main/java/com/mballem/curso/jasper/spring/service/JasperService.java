@@ -19,7 +19,7 @@ public class JasperService {
 
     private static final String JASPER_DIRETORIO = "classpath:jasper/";
     private static final String JASPER_PREFIXO = "funcionarios-";
-    private static final String JASPER_SUFIXO = ",jasper";
+    private static final String JASPER_SUFIXO = ".jasper";
 
     @Autowired
     private Connection connection;
